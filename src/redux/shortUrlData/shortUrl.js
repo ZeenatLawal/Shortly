@@ -13,6 +13,8 @@ export const shortenedUrl = (url) => async (dispatch) => {
 
   const shortUrls = getResult.filter((data) => data.name.includes('full_short'));
 
+  sessionStorage.setItem('urls', JSON.stringify(shortUrls));
+
   if (shortUrls) {
     dispatch({
       type: GET_URLS,

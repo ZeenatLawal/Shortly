@@ -3,7 +3,8 @@ import { useSelector } from 'react-redux';
 import InputUrl from './InputUrl';
 
 const MainContainer = () => {
-  const urls = useSelector((state) => state.urlReducer.url);
+  const temp = JSON.parse(sessionStorage.getItem('urls'));
+  const urls = useSelector((state) => state.urlReducer.url) || temp;
 
   return (
     <div>
