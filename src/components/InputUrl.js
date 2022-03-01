@@ -11,7 +11,6 @@ const InputUrl = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(shortenedUrl(url));
-    setUrl('');
     e.target.reset();
   };
 
