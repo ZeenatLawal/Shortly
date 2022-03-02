@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import InputUrl from './InputUrl';
+import UrlList from './UrlList';
 
 const MainContainer = () => {
   const temp = JSON.parse(sessionStorage.getItem('urls'));
@@ -10,7 +11,7 @@ const MainContainer = () => {
     <div>
       <InputUrl />
       {urls && urls.map((url) => (
-        <p key={url.link}>{url.link}</p>
+        <UrlList key={url.name} url={url.link} />
       ))}
     </div>
   );
