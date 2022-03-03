@@ -11,6 +11,7 @@ const InputUrl = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(shortenedUrl(url));
+    sessionStorage.setItem('original', JSON.stringify(url));
     e.target.reset();
   };
 
