@@ -3,11 +3,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import '../styles/Navbar.css';
+import logo from '../images/logo.svg';
 
 const Navpanel = () => (
   <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
     <Container>
-      <Navbar.Brand>Shortly</Navbar.Brand>
+      <Navbar.Brand><img src={logo} alt="Shortly Logo" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="align-items-center">
