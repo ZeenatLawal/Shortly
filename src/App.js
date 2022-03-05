@@ -1,11 +1,18 @@
 import './styles/App.css';
 import MainContainer from './components/MainContainer';
+import Navpanel from './components/Navbar';
 
 const App = () => (
-  <div>
-    <h1>More than just shorter links</h1>
-    <MainContainer />
-  </div>
+  <>
+    <header>
+      <Navpanel />
+    </header>
+    <div>
+      <h1>More than just shorter links</h1>
+      <MainContainer />
+    </div>
+
+  </>
 );
 
 export default App;
