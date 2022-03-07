@@ -19,7 +19,7 @@ const InputUrl = () => {
   };
 
   return (
-    <div>
+    <section>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -32,7 +32,7 @@ const InputUrl = () => {
         <button type="submit">Shorten it!</button>
       </form>
       <p>{validity}</p>
-    </div>
+    </section>
   );
 };
 
