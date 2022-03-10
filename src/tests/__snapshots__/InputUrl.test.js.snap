@@ -12,7 +12,7 @@ exports[`InputUrl component Snapshot test 1`] = `
       onInvalid={[Function]}
       placeholder="Shorten a link here..."
       required={true}
-      type="text"
+      type="url"
     />
     <button
       type="submit"

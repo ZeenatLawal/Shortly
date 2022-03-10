@@ -22,7 +22,7 @@ const InputUrl = () => {
     <section>
       <form onSubmit={handleSubmit}>
         <input
-          type="text"
+          type="url"
           placeholder="Shorten a link here..."
           data-testid="url-input"
           onChange={onUrlChange}
