@@ -24,6 +24,7 @@ const InputUrl = () => {
         <input
           type="text"
           placeholder="Shorten a link here..."
+          data-testid="url-input"
           onChange={onUrlChange}
           onInvalid={onInvalidUrl}
           onInput={onInputUrl}

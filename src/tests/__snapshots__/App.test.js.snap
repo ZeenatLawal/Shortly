@@ -133,6 +133,7 @@ Array [
         onSubmit={[Function]}
       >
         <input
+          data-testid="url-input"
           onChange={[Function]}
           onInput={[Function]}
           onInvalid={[Function]}
