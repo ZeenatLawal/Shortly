@@ -30,9 +30,11 @@ const InputUrl = () => {
           onInput={onInputUrl}
           required
         />
-        <button type="submit">Shorten it!</button>
+        <button type="submit" data-testid="button">Shorten it!</button>
       </form>
-      <p>{validity}</p>
+      {validity && (
+        <p data-testid="error-msg">{validity}</p>
+      )}
     </section>
   );
 };

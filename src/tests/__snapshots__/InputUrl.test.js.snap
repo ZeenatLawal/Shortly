@@ -15,13 +15,12 @@ exports[`InputUrl component Snapshot test 1`] = `
       type="url"
     />
     <button
+      data-testid="button"
       type="submit"
     >
       Shorten it!
     </button>
   </form>
-  <p>
-    
-  </p>
+  
 </section>
 `;
