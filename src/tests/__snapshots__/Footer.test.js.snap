@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component Snapshot test 1`] = `
+<footer>
+  <img
+    alt="Shortly Logo"
+    src="logo.svg"
+  />
+  <div>
+    <h5>
+      Features
+    </h5>
+    <p>
+      Link Shortening
+    </p>
+    <p>
+      Branded Links
+    </p>
+    <p>
+      Analytics
+    </p>
+  </div>
+  <div>
+    <h5>
+      Resources
+    </h5>
+    <p>
+      Blog
+    </p>
+    <p>
+      Developers
+    </p>
+    <p>
+      Support
+    </p>
+  </div>
+  <div>
+    <h5>
+      Company
+    </h5>
+    <p>
+      About
+    </p>
+    <p>
+      Our Team
+    </p>
+    <p>
+      Careers
+    </p>
+    <p>
+      Contact
+    </p>
+  </div>
+  <div>
+    <img
+      alt="Facebook icon"
+      src="icon-facebook.svg"
+    />
+    <img
+      alt="Twitter icon"
+      src="icon-twitter.svg"
+    />
+    <img
+      alt="Pinterest icon"
+      src="icon-pinterest.svg"
+    />
+    <img
+      alt="Instagram icon"
+      src="icon-instagram.svg"
+    />
+  </div>
+</footer>
+`;

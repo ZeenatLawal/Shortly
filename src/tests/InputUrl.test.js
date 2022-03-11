@@ -36,10 +36,10 @@ describe('InputUrl component', () => {
     );
 
     const input = screen.getByTestId('url-input');
-    const button = screen.getByTestId('button');
     userEvent.type(input, 'https://www.robinwieruch.de/react-testing-library/');
-
     expect(screen.getByTestId('url-input')).toHaveValue('https://www.robinwieruch.de/react-testing-library/');
+
+    const button = screen.getByTestId('button');
     fireEvent.click(button);
     expect(screen.queryByTestId('error-msg')).not.toBeInTheDocument();
   });
