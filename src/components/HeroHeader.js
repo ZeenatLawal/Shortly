@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/HeroHeader.css';
 import working from '../images/illustration-working.svg';
 
 const HeroHeader = () => (
-  <section>
+  <section className="hero">
     <img src={working} alt="brand" />
     <div>
       <h1>More than just shorter links</h1>
