@@ -6,7 +6,7 @@ const HeroHeader = () => (
   <section className="hero">
     <img src={working} alt="brand" />
     <div>
-      <h1>More than just shorter links</h1>
+      <h1 className="title">More than just shorter links</h1>
       <p>
         Build your brand&apos;s recognition and get detailed
         insights on how your links are performing.

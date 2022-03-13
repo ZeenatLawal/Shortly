@@ -6,7 +6,7 @@ import '../styles/Navbar.css';
 import logo from '../images/logo.svg';
 
 const Navpanel = () => (
-  <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+  <Navbar collapseOnSelect expand="lg">
     <Container>
       <Navbar.Brand><img src={logo} alt="Shortly Logo" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -21,7 +21,9 @@ const Navpanel = () => (
         </Nav>
         <Nav className="align-items-center">
           <Nav.Link>Login</Nav.Link>
-          <Nav.Link>Sign Up</Nav.Link>
+          <div className="sign-up">
+            <Nav.Link>Sign Up</Nav.Link>
+          </div>
         </Nav>
       </Navbar.Collapse>
     </Container>
