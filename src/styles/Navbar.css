@@ -32,3 +32,28 @@ hr {
   padding: 0 5rem;
   border-radius: 50rem;
 }
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    padding-top: 0;
+  }
+
+  .navbar-collapse {
+    background-color: white;
+    justify-content: space-between;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: var(--grayish-violet);
+    padding: 0.5rem 1rem;
+  }
+
+  .sign-up {
+    padding: 0 1rem;
+    margin-left: 1rem;
+  }
+
+  .sign-up:hover {
+    opacity: var(--opacity);
+  }
+}

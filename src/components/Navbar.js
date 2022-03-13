@@ -22,7 +22,7 @@ const Navpanel = () => (
         <Nav className="align-items-center">
           <Nav.Link>Login</Nav.Link>
           <div className="sign-up">
-            <Nav.Link>Sign Up</Nav.Link>
+            <Nav.Link className="text-white">Sign Up</Nav.Link>
           </div>
         </Nav>
       </Navbar.Collapse>
