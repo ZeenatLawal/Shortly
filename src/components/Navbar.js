@@ -21,7 +21,7 @@ const Navpanel = () => (
         </Nav>
         <Nav className="align-items-center">
           <Nav.Link>Login</Nav.Link>
-          <div className="sign-up">
+          <div className="sign-up button">
             <Nav.Link className="text-white">Sign Up</Nav.Link>
           </div>
         </Nav>

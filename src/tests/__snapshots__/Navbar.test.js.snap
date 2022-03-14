@@ -91,7 +91,7 @@ exports[`Navbar component Snapshot test 1`] = `
           Login
         </a>
         <div
-          className="sign-up"
+          className="sign-up button"
         >
           <a
             className="text-white nav-link"

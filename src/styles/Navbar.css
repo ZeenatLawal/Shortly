@@ -28,9 +28,7 @@ hr {
 }
 
 .sign-up {
-  background-color: var(--cyan);
   padding: 0 5rem;
-  border-radius: 50rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -48,12 +46,12 @@ hr {
     padding: 0.5rem 1rem;
   }
 
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--darker-violet);
+  }
+
   .sign-up {
     padding: 0 1rem;
     margin-left: 1rem;
-  }
-
-  .sign-up:hover {
-    opacity: var(--opacity);
   }
 }
