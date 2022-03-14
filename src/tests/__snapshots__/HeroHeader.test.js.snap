@@ -1,13 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HeroHeader component Snapshot test 1`] = `
-<section>
+<section
+  className="hero"
+>
   <img
     alt="brand"
     src="illustration-working.svg"
   />
   <div>
-    <h1>
+    <h1
+      className="title"
+    >
       More than just shorter links
     </h1>
     <p>

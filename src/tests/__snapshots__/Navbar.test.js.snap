@@ -2,7 +2,7 @@
 
 exports[`Navbar component Snapshot test 1`] = `
 <nav
-  className="navbar navbar-expand-lg navbar-light bg-light"
+  className="navbar navbar-expand-lg navbar-light"
 >
   <div
     className="container"
@@ -90,17 +90,21 @@ exports[`Navbar component Snapshot test 1`] = `
         >
           Login
         </a>
-        <a
-          className="nav-link"
-          data-rr-ui-event-key={null}
-          href="#"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          role="button"
-          tabIndex={0}
+        <div
+          className="sign-up"
         >
-          Sign Up
-        </a>
+          <a
+            className="text-white nav-link"
+            data-rr-ui-event-key={null}
+            href="#"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            Sign Up
+          </a>
+        </div>
       </div>
     </div>
   </div>
