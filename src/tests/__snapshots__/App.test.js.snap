@@ -114,7 +114,7 @@ Array [
   </header>,
   <main>
     <section
-      className="hero"
+      className="hero main d-lg-flex flex-row-reverse"
     >
       <img
         alt="brand"
@@ -126,10 +126,13 @@ Array [
         >
           More than just shorter links
         </h1>
-        <p>
+        <p
+          className="text-color"
+        >
           Build your brand's recognition and get detailed insights on how your links are performing.
         </p>
         <button
+          className="button"
           type="button"
         >
           Get Started

@@ -2,7 +2,7 @@
 
 exports[`HeroHeader component Snapshot test 1`] = `
 <section
-  className="hero"
+  className="hero main d-lg-flex flex-row-reverse"
 >
   <img
     alt="brand"
@@ -14,10 +14,13 @@ exports[`HeroHeader component Snapshot test 1`] = `
     >
       More than just shorter links
     </h1>
-    <p>
+    <p
+      className="text-color"
+    >
       Build your brand's recognition and get detailed insights on how your links are performing.
     </p>
     <button
+      className="button"
       type="button"
     >
       Get Started
