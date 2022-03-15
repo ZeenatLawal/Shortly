@@ -3,15 +3,15 @@ import '../styles/HeroHeader.css';
 import working from '../images/illustration-working.svg';
 
 const HeroHeader = () => (
-  <section className="hero">
+  <section className="hero main text-center">
     <img src={working} alt="brand" />
     <div>
       <h1 className="title">More than just shorter links</h1>
-      <p>
+      <p className="text-color">
         Build your brand&apos;s recognition and get detailed
         insights on how your links are performing.
       </p>
-      <button type="button">Get Started</button>
+      <button type="button" className="button">Get Started</button>
     </div>
   </section>
 );

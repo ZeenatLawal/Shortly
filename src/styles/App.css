@@ -17,3 +17,23 @@
   --darker-violet: hsl(260, 8%, 14%);
   --opacity: 0.6;
 }
+
+.main {
+  margin: 0 1rem;
+}
+
+.text-color {
+  color: var(--grayish-violet);
+}
+
+.button {
+  background-color: var(--cyan);
+  padding: 0.5rem 2rem;
+  border-radius: 50rem;
+  border: none;
+  color: white;
+}
+
+.button:hover {
+  opacity: var(--opacity);
+}
