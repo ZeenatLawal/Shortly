@@ -3,7 +3,7 @@ import '../styles/HeroHeader.css';
 import working from '../images/illustration-working.svg';
 
 const HeroHeader = () => (
-  <section className="hero main text-center">
+  <section className="hero main d-lg-flex flex-row-reverse">
     <img src={working} alt="brand" />
     <div>
       <h1 className="title">More than just shorter links</h1>
