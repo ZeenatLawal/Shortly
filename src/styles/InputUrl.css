@@ -17,3 +17,19 @@
   border: none;
   color: white;
 }
+
+.shorten:hover {
+  background-color: var(--light-cyan);
+}
+
+@media screen and (min-width: 1024px) {
+  .input-section {
+    background-image: url('../images/bg-shorten-desktop.svg');
+    padding: 2.5rem;
+  }
+
+  .shorten {
+    margin-left: 1rem;
+    padding: 0.4rem 0.5rem;
+  }
+}
