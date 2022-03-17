@@ -31,17 +31,17 @@ const InputUrl = () => {
               onChange={onUrlChange}
               onInvalid={onInvalidUrl}
               onInput={onInputUrl}
-              className="mt-2 mb-3 my-md-0 form-control"
+              className="mt-2 mb-2 my-md-0 form-control"
               required
             />
+            {validity && (
+              <p data-testid="error-msg" className="error-msg">{validity}</p>
+            )}
           </div>
           <div className="col-12 col-md-3 ps-md-0">
             <button type="submit" data-testid="button" className="shorten form-control text-center">Shorten it!</button>
           </div>
         </form>
-        {validity && (
-          <p data-testid="error-msg">{validity}</p>
-        )}
       </div>
     </section>
   );

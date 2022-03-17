@@ -22,6 +22,28 @@
   background-color: var(--light-cyan);
 }
 
+.form-control::placeholder {
+  color: var(--grayish-violet);
+  opacity: 1;
+}
+
+.form-control:focus {
+  border-width: 0.2rem;
+  border-color: var(--red);
+  box-shadow: none;
+}
+
+.form-control:focus::placeholder {
+  color: var(--red);
+  opacity: 0.6;
+}
+
+.error-msg {
+  color: var(--red);
+  font-style: italic;
+  font-size: 0.7rem;
+}
+
 @media screen and (min-width: 1024px) {
   .input-section {
     background-image: url('../images/bg-shorten-desktop.svg');
@@ -31,5 +53,9 @@
   .shorten {
     margin-left: 1rem;
     padding: 0.4rem 0.5rem;
+  }
+
+  .error-msg {
+    margin: 0;
   }
 }
