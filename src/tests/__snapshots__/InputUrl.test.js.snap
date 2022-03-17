@@ -1,26 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`InputUrl component Snapshot test 1`] = `
-<section>
-  <form
-    onSubmit={[Function]}
+<section
+  className="mid-section"
+>
+  <div
+    className="input-section rounded main"
   >
-    <input
-      data-testid="url-input"
-      onChange={[Function]}
-      onInput={[Function]}
-      onInvalid={[Function]}
-      placeholder="Shorten a link here..."
-      required={true}
-      type="url"
-    />
-    <button
-      data-testid="button"
-      type="submit"
+    <form
+      className="row p-0"
+      onSubmit={[Function]}
     >
-      Shorten it!
-    </button>
-  </form>
-  
+      <div
+        className="col-12 col-md-9 pe-md-0"
+      >
+        <input
+          className="mt-2 mb-3 my-md-0 form-control"
+          data-testid="url-input"
+          onChange={[Function]}
+          onInput={[Function]}
+          onInvalid={[Function]}
+          placeholder="Shorten a link here..."
+          required={true}
+          type="url"
+        />
+      </div>
+      <div
+        className="col-12 col-md-3 ps-md-0"
+      >
+        <button
+          className="shorten form-control text-center"
+          data-testid="button"
+          type="submit"
+        >
+          Shorten it!
+        </button>
+      </div>
+    </form>
+    
+  </div>
 </section>
 `;
