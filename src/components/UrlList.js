@@ -18,7 +18,7 @@ const UrlList = ({ url }) => {
         <div className="d-lg-none">
           <hr />
         </div>
-        <p className="short-url">{url}</p>
+        <p className="short-url text-lg-end">{url}</p>
         <button
           type="button"
           onClick={handleClick}
