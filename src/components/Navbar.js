@@ -17,7 +17,7 @@ const Navpanel = () => (
           <Nav.Link>Resources</Nav.Link>
         </Nav>
         <Nav className="d-lg-none">
-          <hr />
+          <hr className="nav-line" />
         </Nav>
         <Nav className="align-items-center">
           <Nav.Link>Login</Nav.Link>

@@ -1,0 +1,32 @@
+.list {
+  background-color: var(--light-violet);
+  padding-top: 2rem;
+}
+
+.url-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.original {
+  margin: 0;
+}
+
+.short-url {
+  color: var(--cyan);
+}
+
+.copy {
+  background-color: var(--cyan);
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+  border: none;
+  color: white;
+}
+
+.copy:hover {
+  background-color: var(--light-cyan);
+}

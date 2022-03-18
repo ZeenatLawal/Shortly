@@ -21,7 +21,7 @@
   color: white;
 }
 
-hr {
+.nav-line {
   color: var(--gray);
   width: 90%;
   margin: 1rem auto;
