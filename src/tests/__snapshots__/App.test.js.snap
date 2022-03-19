@@ -75,7 +75,9 @@ Array [
             className="d-lg-none navbar-nav"
             onKeyDown={[Function]}
           >
-            <hr />
+            <hr
+              className="nav-line"
+            />
           </div>
           <div
             className="align-items-center navbar-nav"
@@ -153,7 +155,7 @@ Array [
             className="col-12 col-md-9 pe-md-0"
           >
             <input
-              className="mt-2 mb-3 my-md-0 form-control"
+              className="mt-2 mb-2 my-md-0 form-control"
               data-testid="url-input"
               onChange={[Function]}
               onInput={[Function]}
@@ -162,6 +164,7 @@ Array [
               required={true}
               type="url"
             />
+            
           </div>
           <div
             className="col-12 col-md-3 ps-md-0"
@@ -175,7 +178,6 @@ Array [
             </button>
           </div>
         </form>
-        
       </div>
     </section>
     <section>

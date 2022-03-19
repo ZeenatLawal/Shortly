@@ -15,7 +15,7 @@ exports[`InputUrl component Snapshot test 1`] = `
         className="col-12 col-md-9 pe-md-0"
       >
         <input
-          className="mt-2 mb-3 my-md-0 form-control"
+          className="mt-2 mb-2 my-md-0 form-control"
           data-testid="url-input"
           onChange={[Function]}
           onInput={[Function]}
@@ -24,6 +24,7 @@ exports[`InputUrl component Snapshot test 1`] = `
           required={true}
           type="url"
         />
+        
       </div>
       <div
         className="col-12 col-md-3 ps-md-0"
@@ -37,7 +38,6 @@ exports[`InputUrl component Snapshot test 1`] = `
         </button>
       </div>
     </form>
-    
   </div>
 </section>
 `;
