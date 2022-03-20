@@ -1,4 +1,4 @@
-img {
+.working {
   width: 100%;
 }
 
@@ -15,7 +15,7 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
-  img {
+  .working {
     width: 50%;
     margin-left: 2rem;
   }

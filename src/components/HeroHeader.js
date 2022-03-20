@@ -4,7 +4,7 @@ import working from '../images/illustration-working.svg';
 
 const HeroHeader = () => (
   <section className="hero main d-lg-flex flex-row-reverse">
-    <img src={working} alt="brand" />
+    <img src={working} alt="brand" className="working" />
     <div>
       <h1 className="title">More than just shorter links</h1>
       <p className="text-color">

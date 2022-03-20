@@ -22,7 +22,7 @@ const UrlList = ({ url }) => {
         <button
           type="button"
           onClick={handleClick}
-          className="copy"
+          className="shorten copy"
           style={{
             backgroundColor: btn === 'Copy' ? 'var(--cyan)' : 'var(--dark-violet)',
           }}

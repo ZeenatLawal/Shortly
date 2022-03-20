@@ -13,22 +13,11 @@
 
 .original {
   margin: 0;
+  overflow-wrap: break-word;
 }
 
 .short-url {
   color: var(--cyan);
-}
-
-.copy {
-  background-color: var(--cyan);
-  padding: 0.5rem 2rem;
-  border-radius: 0.2rem;
-  border: none;
-  color: white;
-}
-
-.copy:hover {
-  background-color: var(--light-cyan);
 }
 
 @media screen and (min-width: 1024px) {
