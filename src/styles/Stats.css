@@ -1,0 +1,36 @@
+.stats {
+  background-color: var(--light-violet);
+  padding-top: 4rem;
+}
+
+.line {
+  height: 0.6rem !important;
+  width: 8.5rem;
+  background-color: var(--cyan);
+  opacity: 1;
+  transform: rotate(90deg);
+  margin-left: 5.5rem;
+}
+
+.icon {
+  background-color: var(--dark-violet);
+  width: 4.5rem;
+  height: 4.5rem;
+  padding: 1rem;
+  margin: 0 auto;
+  position: absolute;
+  top: -2rem;
+  left: 7.5rem;
+}
+
+.stats-card {
+  background-color: white;
+  padding: 4rem 1rem 1rem 1rem;
+  margin-top: 1rem;
+}
+
+.stats-card-title {
+  color: var(--darker-violet);
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
