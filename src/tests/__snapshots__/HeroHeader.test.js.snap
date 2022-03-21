@@ -6,6 +6,7 @@ exports[`HeroHeader component Snapshot test 1`] = `
 >
   <img
     alt="brand"
+    className="working"
     src="illustration-working.svg"
   />
   <div>
