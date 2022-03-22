@@ -34,3 +34,41 @@
   font-weight: 700;
   padding-bottom: 0.5rem;
 }
+
+@media screen and (min-width: 1024px) {
+  .stats-title {
+    font-size: 2rem;
+  }
+
+  .stats-card {
+    width: 19rem;
+  }
+
+  .line {
+    width: 2rem;
+    margin-left: 1rem;
+    transform: rotate(180deg);
+    margin-top: 10rem;
+  }
+
+  .icon {
+    top: -1rem;
+    left: 2rem;
+  }
+
+  .records {
+    padding-top: 2.5rem;
+  }
+
+  .customize {
+    padding-top: 5rem;
+  }
+
+  .records .icon {
+    top: 1.5rem;
+  }
+
+  .customize .icon {
+    top: 3.5rem;
+  }
+}

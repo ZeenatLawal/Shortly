@@ -9,11 +9,11 @@ const Stats = () => (
     <section className="stats text-center">
       <div className="main">
         <h3 className="title stats-title">Advanced Statistics</h3>
-        <p className="text-color pb-3">
+        <p className="text-color pb-3 pb-lg-5">
           Track how your links are performing across the
           web with our advanced statistics dashboard.
         </p>
-        <div className="py-4">
+        <div className="py-4 d-lg-flex justify-content-lg-center">
           <div className="pb-5 position-relative">
             <div className="icon rounded-circle">
               <img src={brand} alt="Graph icon" />
@@ -27,7 +27,7 @@ const Stats = () => (
             </div>
           </div>
           <hr className="line" />
-          <div className="pb-5 position-relative">
+          <div className="pb-5 position-relative records">
             <div className="icon rounded-circle">
               <img src={records} alt="Records icon" />
             </div>
@@ -40,7 +40,7 @@ const Stats = () => (
             </div>
           </div>
           <hr className="line" />
-          <div className="pb-5 position-relative">
+          <div className="pb-5 position-relative customize">
             <div className="icon rounded-circle">
               <img src={customize} alt="Pens icon" />
             </div>
