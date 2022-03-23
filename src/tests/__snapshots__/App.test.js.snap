@@ -193,12 +193,12 @@ Array [
           Advanced Statistics
         </h3>
         <p
-          className="text-color pb-3"
+          className="text-color pb-3 pb-lg-5"
         >
           Track how your links are performing across the web with our advanced statistics dashboard.
         </p>
         <div
-          className="py-4"
+          className="py-4 d-lg-flex justify-content-lg-center"
         >
           <div
             className="pb-5 position-relative"
@@ -230,7 +230,7 @@ Array [
             className="line"
           />
           <div
-            className="pb-5 position-relative"
+            className="pb-5 position-relative records"
           >
             <div
               className="icon rounded-circle"
@@ -259,7 +259,7 @@ Array [
             className="line"
           />
           <div
-            className="pb-5 position-relative"
+            className="pb-5 position-relative customize"
           >
             <div
               className="icon rounded-circle"
