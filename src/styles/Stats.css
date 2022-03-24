@@ -35,6 +35,18 @@
   padding-bottom: 0.5rem;
 }
 
+.boost {
+  background-color: var(--dark-violet);
+  background-image: url('../images/bg-boost-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 5rem 1rem;
+}
+
+.boost-title {
+  font-weight: 700;
+}
+
 @media screen and (min-width: 1024px) {
   .stats-title {
     font-size: 2rem;

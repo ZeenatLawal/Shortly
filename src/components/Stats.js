@@ -55,9 +55,11 @@ const Stats = () => (
         </div>
       </div>
     </section>
-    <section>
-      <h3>Boost your links today</h3>
-      <button type="button">Get Started</button>
+    <section className="boost text-center">
+      <div className="main">
+        <h3 className="text-white boost-title mb-3">Boost your links today</h3>
+        <button type="button" className="button">Get Started</button>
+      </div>
     </section>
   </>
 );
