@@ -83,4 +83,9 @@
   .customize .icon {
     top: 3.5rem;
   }
+
+  .boost {
+    background-image: url('../images/bg-boost-desktop.svg');
+    padding: 4rem 1rem;
+  }
 }
