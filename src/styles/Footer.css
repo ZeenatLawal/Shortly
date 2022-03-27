@@ -1,0 +1,36 @@
+.footer {
+  background-color: var(--dark-blue);
+  color: white;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.footer-logo {
+  width: 8rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer h6 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+
+.footer p {
+  font-size: 0.8rem;
+  color: var(--gray);
+}
+
+.footer p:hover {
+  color: var(--cyan);
+}
+
+.footer-icon:hover {
+  filter: 
+    invert(0.5)
+    sepia(1)
+    hue-rotate(180deg)
+    saturate(66)
+    brightness(49);
+}
