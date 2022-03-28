@@ -1,73 +1,86 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Footer component Snapshot test 1`] = `
-<footer>
-  <img
-    alt="Shortly Logo"
-    src="logo.svg"
-  />
-  <div>
-    <h5>
-      Features
-    </h5>
-    <p>
-      Link Shortening
-    </p>
-    <p>
-      Branded Links
-    </p>
-    <p>
-      Analytics
-    </p>
-  </div>
-  <div>
-    <h5>
-      Resources
-    </h5>
-    <p>
-      Blog
-    </p>
-    <p>
-      Developers
-    </p>
-    <p>
-      Support
-    </p>
-  </div>
-  <div>
-    <h5>
-      Company
-    </h5>
-    <p>
-      About
-    </p>
-    <p>
-      Our Team
-    </p>
-    <p>
-      Careers
-    </p>
-    <p>
-      Contact
-    </p>
-  </div>
-  <div>
+<footer
+  className="footer"
+>
+  <div
+    className="main d-flex flex-column align-items-center"
+  >
     <img
-      alt="Facebook icon"
-      src="icon-facebook.svg"
+      alt="Shortly Logo"
+      className="footer-logo"
+      src="logo-white.svg"
     />
-    <img
-      alt="Twitter icon"
-      src="icon-twitter.svg"
-    />
-    <img
-      alt="Pinterest icon"
-      src="icon-pinterest.svg"
-    />
-    <img
-      alt="Instagram icon"
-      src="icon-instagram.svg"
-    />
+    <div>
+      <h6>
+        Features
+      </h6>
+      <p>
+        Link Shortening
+      </p>
+      <p>
+        Branded Links
+      </p>
+      <p>
+        Analytics
+      </p>
+    </div>
+    <div>
+      <h6>
+        Resources
+      </h6>
+      <p>
+        Blog
+      </p>
+      <p>
+        Developers
+      </p>
+      <p>
+        Support
+      </p>
+    </div>
+    <div>
+      <h6>
+        Company
+      </h6>
+      <p>
+        About
+      </p>
+      <p>
+        Our Team
+      </p>
+      <p>
+        Careers
+      </p>
+      <p>
+        Contact
+      </p>
+    </div>
+    <div
+      className="pt-4 pb-5"
+    >
+      <img
+        alt="Facebook icon"
+        className="pe-4 footer-icon"
+        src="icon-facebook.svg"
+      />
+      <img
+        alt="Twitter icon"
+        className="pe-4 footer-icon"
+        src="icon-twitter.svg"
+      />
+      <img
+        alt="Pinterest icon"
+        className="pe-4 footer-icon"
+        src="icon-pinterest.svg"
+      />
+      <img
+        alt="Instagram icon"
+        className="footer-icon"
+        src="icon-instagram.svg"
+      />
+    </div>
   </div>
 </footer>
 `;
