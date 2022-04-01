@@ -27,7 +27,7 @@
 }
 
 .footer-icon:hover {
-  filter: 
+  filter:
     invert(0.5)
     sepia(1)
     hue-rotate(180deg)
