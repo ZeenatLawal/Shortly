@@ -6,3 +6,10 @@
 
 #### Mobile
 ![screenshot](./src/images/mobile.png)
+
+## Built With
+
+- ReactJS
+- Redux
+- React Bootstrap
+- Jest & React Testing Library
