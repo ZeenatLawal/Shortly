@@ -1,0 +1,61 @@
+.mid-section {
+  background: linear-gradient(to bottom, white 50%, var(--light-violet) 50%);
+}
+
+.input-section {
+  background-color: var(--dark-violet);
+  background-image: url('../images/bg-shorten-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 1rem;
+}
+
+.shorten {
+  background-color: var(--cyan);
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+  border: none;
+  color: white;
+}
+
+.shorten:hover {
+  background-color: var(--light-cyan);
+}
+
+.form-control::placeholder {
+  color: var(--grayish-violet);
+  opacity: 1;
+}
+
+.form-control:focus {
+  border-width: 0.2rem;
+  border-color: var(--red);
+  box-shadow: none;
+}
+
+.form-control:focus::placeholder {
+  color: var(--red);
+  opacity: 0.6;
+}
+
+.error-msg {
+  color: var(--red);
+  font-style: italic;
+  font-size: 0.7rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .input-section {
+    background-image: url('../images/bg-shorten-desktop.svg');
+    padding: 2.5rem;
+  }
+
+  .shorten {
+    margin-left: 1rem;
+    padding: 0.4rem 0.5rem;
+  }
+
+  .error-msg {
+    margin: 0;
+  }
+}

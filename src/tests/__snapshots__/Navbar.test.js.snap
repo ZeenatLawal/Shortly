@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component Snapshot test 1`] = `
+<nav
+  className="navbar navbar-expand-lg navbar-light"
+>
+  <div
+    className="container"
+  >
+    <span
+      className="navbar-brand"
+    >
+      <img
+        alt="Shortly Logo"
+        src="logo.svg"
+      />
+    </span>
+    <button
+      aria-controls="responsive-navbar-nav"
+      aria-label="Toggle navigation"
+      className="navbar-toggler collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      aria-expanded={null}
+      className="navbar-collapse collapse"
+      id="responsive-navbar-nav"
+    >
+      <div
+        className="align-items-center navbar-nav"
+        onKeyDown={[Function]}
+      >
+        <a
+          className="nav-link"
+          data-rr-ui-event-key={null}
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          Features
+        </a>
+        <a
+          className="nav-link"
+          data-rr-ui-event-key={null}
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          Pricing
+        </a>
+        <a
+          className="nav-link"
+          data-rr-ui-event-key={null}
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          Resources
+        </a>
+      </div>
+      <div
+        className="d-lg-none navbar-nav"
+        onKeyDown={[Function]}
+      >
+        <hr
+          className="nav-line"
+        />
+      </div>
+      <div
+        className="align-items-center navbar-nav"
+        onKeyDown={[Function]}
+      >
+        <a
+          className="nav-link"
+          data-rr-ui-event-key={null}
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          Login
+        </a>
+        <div
+          className="sign-up button"
+        >
+          <a
+            className="text-white nav-link"
+            data-rr-ui-event-key={null}
+            href="#"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            Sign Up
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;

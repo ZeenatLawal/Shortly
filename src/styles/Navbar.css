@@ -1,0 +1,58 @@
+.navbar-light .navbar-toggler {
+  color: white;
+  border-color: white;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  padding-bottom: 0;
+  z-index: 1;
+}
+
+.navbar-collapse {
+  background-color: var(--dark-violet);
+  border-radius: 4%;
+  padding: 1rem 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.nav-line {
+  color: var(--gray);
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.sign-up {
+  padding: 0 5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    padding-top: 0;
+  }
+
+  .navbar-collapse {
+    background-color: white;
+    justify-content: space-between;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: var(--grayish-violet);
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--darker-violet);
+  }
+
+  .sign-up {
+    padding: 0 1rem;
+    margin-left: 1rem;
+  }
+}

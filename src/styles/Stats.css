@@ -1,0 +1,91 @@
+.stats {
+  background-color: var(--light-violet);
+  padding-top: 4rem;
+}
+
+.line {
+  height: 0.6rem !important;
+  width: 8.5rem;
+  background-color: var(--cyan);
+  opacity: 1;
+  transform: rotate(90deg);
+  margin-left: 5.5rem;
+}
+
+.icon {
+  background-color: var(--dark-violet);
+  width: 4.5rem;
+  height: 4.5rem;
+  padding: 1rem;
+  margin: 0 auto;
+  position: absolute;
+  top: -2rem;
+  left: 7.5rem;
+}
+
+.stats-card {
+  background-color: white;
+  padding: 4rem 1rem 1rem 1rem;
+  margin-top: 1rem;
+}
+
+.stats-card-title {
+  color: var(--darker-violet);
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.boost {
+  background-color: var(--dark-violet);
+  background-image: url('../images/bg-boost-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 5rem 1rem;
+}
+
+.boost-title {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+  .stats-title {
+    font-size: 2rem;
+  }
+
+  .stats-card {
+    width: 19rem;
+  }
+
+  .line {
+    width: 2rem;
+    margin-left: 1rem;
+    transform: rotate(180deg);
+    margin-top: 10rem;
+  }
+
+  .icon {
+    top: -1rem;
+    left: 2rem;
+  }
+
+  .records {
+    padding-top: 2.5rem;
+  }
+
+  .customize {
+    padding-top: 5rem;
+  }
+
+  .records .icon {
+    top: 1.5rem;
+  }
+
+  .customize .icon {
+    top: 3.5rem;
+  }
+
+  .boost {
+    background-image: url('../images/bg-boost-desktop.svg');
+    padding: 4rem 1rem;
+  }
+}

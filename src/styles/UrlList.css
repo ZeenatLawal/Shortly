@@ -1,0 +1,39 @@
+.list {
+  background-color: var(--light-violet);
+  padding-top: 1rem;
+}
+
+.url-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.original {
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+.short-url {
+  color: var(--cyan);
+}
+
+@media screen and (min-width: 1024px) {
+  .url-card {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    align-items: baseline;
+  }
+
+  .short-url {
+    margin: 0;
+  }
+
+  .copy {
+    margin-left: 1.5rem;
+    padding: 0.3rem;
+  }
+}

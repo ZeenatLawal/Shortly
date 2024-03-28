@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroHeader component Snapshot test 1`] = `
+<section
+  className="hero main d-lg-flex flex-row-reverse"
+>
+  <img
+    alt="brand"
+    className="working"
+    src="illustration-working.svg"
+  />
+  <div>
+    <h1
+      className="title"
+    >
+      More than just shorter links
+    </h1>
+    <p
+      className="text-color"
+    >
+      Build your brand's recognition and get detailed insights on how your links are performing.
+    </p>
+    <button
+      className="button"
+      type="button"
+    >
+      Get Started
+    </button>
+  </div>
+</section>
+`;

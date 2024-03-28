@@ -1,0 +1,397 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component Snapshot test 1`] = `
+Array [
+  <header>
+    <nav
+      className="navbar navbar-expand-lg navbar-light"
+    >
+      <div
+        className="container"
+      >
+        <span
+          className="navbar-brand"
+        >
+          <img
+            alt="Shortly Logo"
+            src="logo.svg"
+          />
+        </span>
+        <button
+          aria-controls="responsive-navbar-nav"
+          aria-label="Toggle navigation"
+          className="navbar-toggler collapsed"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          aria-expanded={null}
+          className="navbar-collapse collapse"
+          id="responsive-navbar-nav"
+        >
+          <div
+            className="align-items-center navbar-nav"
+            onKeyDown={[Function]}
+          >
+            <a
+              className="nav-link"
+              data-rr-ui-event-key={null}
+              href="#"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Features
+            </a>
+            <a
+              className="nav-link"
+              data-rr-ui-event-key={null}
+              href="#"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Pricing
+            </a>
+            <a
+              className="nav-link"
+              data-rr-ui-event-key={null}
+              href="#"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Resources
+            </a>
+          </div>
+          <div
+            className="d-lg-none navbar-nav"
+            onKeyDown={[Function]}
+          >
+            <hr
+              className="nav-line"
+            />
+          </div>
+          <div
+            className="align-items-center navbar-nav"
+            onKeyDown={[Function]}
+          >
+            <a
+              className="nav-link"
+              data-rr-ui-event-key={null}
+              href="#"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Login
+            </a>
+            <div
+              className="sign-up button"
+            >
+              <a
+                className="text-white nav-link"
+                data-rr-ui-event-key={null}
+                href="#"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Sign Up
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>,
+  <main>
+    <section
+      className="hero main d-lg-flex flex-row-reverse"
+    >
+      <img
+        alt="brand"
+        className="working"
+        src="illustration-working.svg"
+      />
+      <div>
+        <h1
+          className="title"
+        >
+          More than just shorter links
+        </h1>
+        <p
+          className="text-color"
+        >
+          Build your brand's recognition and get detailed insights on how your links are performing.
+        </p>
+        <button
+          className="button"
+          type="button"
+        >
+          Get Started
+        </button>
+      </div>
+    </section>
+    <section
+      className="mid-section"
+    >
+      <div
+        className="input-section rounded main"
+      >
+        <form
+          className="row p-0"
+          onSubmit={[Function]}
+        >
+          <div
+            className="col-12 col-md-9 pe-md-0"
+          >
+            <input
+              className="mt-2 mb-2 my-md-0 form-control"
+              data-testid="url-input"
+              onChange={[Function]}
+              onInput={[Function]}
+              onInvalid={[Function]}
+              placeholder="Shorten a link here..."
+              required={true}
+              type="url"
+            />
+            
+          </div>
+          <div
+            className="col-12 col-md-3 ps-md-0"
+          >
+            <button
+              className="shorten form-control text-center"
+              data-testid="button"
+              type="submit"
+            >
+              Shorten it!
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section
+      className="stats text-center"
+    >
+      <div
+        className="main"
+      >
+        <h3
+          className="title stats-title"
+        >
+          Advanced Statistics
+        </h3>
+        <p
+          className="text-color pb-3 pb-lg-5"
+        >
+          Track how your links are performing across the web with our advanced statistics dashboard.
+        </p>
+        <div
+          className="py-4 d-lg-flex justify-content-lg-center"
+        >
+          <div
+            className="pb-5 position-relative"
+          >
+            <div
+              className="icon rounded-circle"
+            >
+              <img
+                alt="Graph icon"
+                src="icon-brand-recognition.svg"
+              />
+            </div>
+            <div
+              className="stats-card rounded"
+            >
+              <h4
+                className="stats-card-title"
+              >
+                Brand Recognition
+              </h4>
+              <p
+                className="text-color"
+              >
+                Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instill confidence in your content.
+              </p>
+            </div>
+          </div>
+          <hr
+            className="line"
+          />
+          <div
+            className="pb-5 position-relative records"
+          >
+            <div
+              className="icon rounded-circle"
+            >
+              <img
+                alt="Records icon"
+                src="icon-detailed-records.svg"
+              />
+            </div>
+            <div
+              className="stats-card rounded"
+            >
+              <h4
+                className="stats-card-title"
+              >
+                Detailed Records
+              </h4>
+              <p
+                className="text-color"
+              >
+                Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.
+              </p>
+            </div>
+          </div>
+          <hr
+            className="line"
+          />
+          <div
+            className="pb-5 position-relative customize"
+          >
+            <div
+              className="icon rounded-circle"
+            >
+              <img
+                alt="Pens icon"
+                src="icon-fully-customizable.svg"
+              />
+            </div>
+            <div
+              className="stats-card rounded"
+            >
+              <h4
+                className="stats-card-title"
+              >
+                Fully Customizable
+              </h4>
+              <p
+                className="text-color"
+              >
+                Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      className="boost text-center"
+    >
+      <div
+        className="main"
+      >
+        <h3
+          className="text-white boost-title mb-3"
+        >
+          Boost your links today
+        </h3>
+        <button
+          className="button"
+          type="button"
+        >
+          Get Started
+        </button>
+      </div>
+    </section>
+  </main>,
+  <footer
+    className="footer"
+  >
+    <div
+      className="main d-flex flex-column align-items-center flex-lg-row align-items-lg-start"
+    >
+      <img
+        alt="Shortly Logo"
+        className="footer-logo"
+        src="logo-white.svg"
+      />
+      <div
+        className="d-lg-flex flex-lg-row justify-content-lg-between w-100"
+      >
+        <div>
+          <h6>
+            Features
+          </h6>
+          <p>
+            Link Shortening
+          </p>
+          <p>
+            Branded Links
+          </p>
+          <p>
+            Analytics
+          </p>
+        </div>
+        <div>
+          <h6>
+            Resources
+          </h6>
+          <p>
+            Blog
+          </p>
+          <p>
+            Developers
+          </p>
+          <p>
+            Support
+          </p>
+        </div>
+        <div>
+          <h6>
+            Company
+          </h6>
+          <p>
+            About
+          </p>
+          <p>
+            Our Team
+          </p>
+          <p>
+            Careers
+          </p>
+          <p>
+            Contact
+          </p>
+        </div>
+        <div
+          className="pt-4 pt-lg-0"
+        >
+          <img
+            alt="Facebook icon"
+            className="pe-4 footer-icon"
+            src="icon-facebook.svg"
+          />
+          <img
+            alt="Twitter icon"
+            className="pe-4 footer-icon"
+            src="icon-twitter.svg"
+          />
+          <img
+            alt="Pinterest icon"
+            className="pe-4 footer-icon"
+            src="icon-pinterest.svg"
+          />
+          <img
+            alt="Instagram icon"
+            className="footer-icon"
+            src="icon-instagram.svg"
+          />
+        </div>
+      </div>
+    </div>
+  </footer>,
+]
+`;

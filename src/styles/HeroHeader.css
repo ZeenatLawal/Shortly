@@ -1,0 +1,31 @@
+.working {
+  width: 100%;
+}
+
+.hero {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.title {
+  margin-top: 2rem;
+  font-weight: 700;
+  color: var(--darker-violet);
+}
+
+@media screen and (min-width: 1024px) {
+  .working {
+    width: 50%;
+    margin-left: 2rem;
+  }
+
+  .hero {
+    margin-top: 6rem;
+    text-align: left;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+}
